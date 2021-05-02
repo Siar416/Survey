@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html="en">
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <form id="survey-form">
+    <h1 id="title">Please take the time to fill out the Survey Form</h1>
+    <p id="description">Help me to improve my <strong>HTML/CSS</strong> skills by giving useful feedback</p>
+
+    <div id="survey">
+      <label for="name" id="name-label" class="labels">Please enter name</label>
+      <input id="name" type="text" placeholder="Name" required>
+      <input type="submit" name="submit"><br>
+
+      <label for="email" id="email-label" class="labels">Please enter email address</label>
+      <input id="email" type="email" placeholder="Email" required>
+      <input type="submit" name="submit"><br>
+
+      <label for="number" id="number-label" class="labels">Please enter you age</label>
+      <input id="number" type="number" placeholder="number" required min="1" max="200">
+      <input type="submit" name="number">
+    </div>
+    <br>
+
+    <div id="dropdown">
+      <label for="dropdown">Please let me know what you think of my survey form</label>
+      <select name="sel1" id="dropdown">
+        <option value=""></option>
+        <option value="Excellent">Excellent</option>
+        <option value="Great">Great</option>
+        <option value="Great">Mediocre</option>
+        <option value="Great">Aweful</option>
+      </select>
+    </div><br>
+    <div>
+      <h2>Tell me a little about yourself</h2>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</lable><br>
+        <input type="radio" id="famale" name="gender" value="female">
+        <label for="female">Female</lable><br>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Rather not say</lable>
+            <br>
+            <h2>What are some of your hobbies</h2>
+            <input type="checkbox" id="biking" value="biking">
+            <label for="biking">Biking</label><br>
+            <input type="checkbox" id="swimming" value="swimming">
+            <label for="swimming">Swimming</label><br>
+            <input type="checkbox" id="reading" value="reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" id="gaming" value="gaming">
+            <label for="gaming">Gaming</label><br>
+            <input type="checkbox" id="sports" value="sports">
+            <label for="sports">Playing sports</label><br>
+            <input type="checkbox" id="movie" value="movie">
+            <label for="movie">Watching movies</label><br>
+            <input type="checkbox" id="walk" value="walk">
+            <label for="walk">Going for a walk</label><br>
+            <input type="checkbox" id="other" value="other">
+            <label for="other">Other</label>
+            <input type="text"><br>
+    </div>
+    <h2>Any suggestions? Let me know below:<h2>
+        <textarea id="comments" name="comments" rows="6" cols="100">...</textarea><br> <input type="submit" id="submit">
+
+  </form>
+
+  </html>
+<!-- partial -->
+  
+</body>
+</html>
